@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# MuJoCo
+*.mjb
+# *.xml cache files (assuming cache-related XML files)
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+.h
+
+# Log files
+*.log
+*.tmp
+
+# Large binary/model files
+*.bin
+*.pt
+*.onnx
+
+# Secret configs
+secrets.py
+config_local.py

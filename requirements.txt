@@ -1,0 +1,22 @@
+# Unitree G1 Bipedal Walking - Dependencies
+# Python 3.8+
+
+# # Core robotics SDK
+# unitree_sdk2py>=0.2.0
+
+# Scientific computing & numerical operations
+numpy>=1.24.0
+
+# Physics simulation (MuJoCo)
+mujoco>=3.1.0
+
+# Joystick/gamepad support
+pygame>=2.4.0
+
+# DDS/ROS2 Communication (usually bundled with unitree_sdk2py)
+# cyclonedds - middleware for pub/sub messaging
+
+# Optional: for development
+# pytest>=7.0.0
+# black>=23.0.0
+# pylint>=2.16.0
