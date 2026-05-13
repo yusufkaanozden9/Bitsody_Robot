@@ -1,9 +1,6 @@
 # Unitree G1 Bipedal Walking - Dependencies
 # Python 3.8+
 
-# # Core robotics SDK
-# unitree_sdk2py>=0.2.0
-
 # Scientific computing & numerical operations
 numpy>=1.24.0
 

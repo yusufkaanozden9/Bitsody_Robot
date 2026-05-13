@@ -28,6 +28,9 @@ desktop.ini
 *.pt
 *.onnx
 
+venv/
+.venv/
+
 # Secret configs
 secrets.py
 config_local.py
