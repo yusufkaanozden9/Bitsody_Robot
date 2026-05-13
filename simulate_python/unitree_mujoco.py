@@ -12,7 +12,7 @@ import config
 import os
 
 
-os.environ["MUJOCO_GL"] = "glfw"
+os.environ["MUJOCO_GL"] = "egl"
 
 
 locker = threading.Lock()
@@ -75,6 +75,10 @@ def SimulationThread():
         )
         if time_until_next_step > 0:
             time.sleep(time_until_next_step)
+
+        # Stop after 10 seconds for test
+        if time.perf_counter() - start_time > 10:
+            break
 
 
 def PhysicsViewerThread():

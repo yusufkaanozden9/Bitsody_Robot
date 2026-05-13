@@ -1,6 +1,5 @@
 import mujoco
 import numpy as np
-import pygame
 import sys
 import struct
 
