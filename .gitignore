@@ -3,34 +3,39 @@ __pycache__/
 *.pyc
 *.pyo
 .env
-venv/
 
-# MuJoCo
+# Virtual environments  (asla commitlenmemeli)
+venv/
+.venv/
+env/
+
+# Harici bagimliliklar - pip/colcon ile kurulur, depoya girmez
+cyclonedds/
+unitree_sdk2_python/
+
+# IDE
+.idea/
+.vscode/
+
+# MuJoCo runtime ciktilari
+MJDATA.TXT
+MUJOCO_LOG.TXT
 *.mjb
-# *.xml cache files (assuming cache-related XML files)
+
+# Loglar / gecici
+*.log
+*.tmp
+
+# Buyuk ikili / model dosyalari
+*.bin
+*.pt
+*.onnx
 
 # OS
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# IDE
-.vscode/settings.json
-.idea/
-.h
-
-# Log files
-*.log
-*.tmp
-
-# Large binary/model files
-*.bin
-*.pt
-*.onnx
-
-venv/
-.venv/
-
-# Secret configs
+# Gizli ayarlar
 secrets.py
 config_local.py
